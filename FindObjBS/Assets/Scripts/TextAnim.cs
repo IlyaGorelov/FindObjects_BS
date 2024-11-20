@@ -6,6 +6,7 @@ public class TextAnim : MonoBehaviour
     [SerializeField] TextMeshProUGUI text;
     [SerializeField] string[] replicas;
     [SerializeField] GameObject StartAnim;
+    [SerializeField] GameObject NextChar;
     int i = 0;
 
     public  void Next()
@@ -13,7 +14,12 @@ public class TextAnim : MonoBehaviour
         i++;
         if(i<replicas.Length)
         text.text = replicas[i];
-        else  StartAnim.SetActive(false);
+        else
+        {
+            if(NextChar!=null)
+            NextChar.SetActive(true);
+            StartAnim.SetActive(false);
+        }
     }
 
     private void Start()
