@@ -404,6 +404,7 @@ GameObject:
   - component: {fileID: 7058944316387602355}
   - component: {fileID: 2684132000942944349}
   - component: {fileID: 4364269719294428729}
+  - component: {fileID: 6741652001622116868}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -512,7 +513,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2684132000942944349}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6741652001622116868}
+        m_TargetAssemblyTypeName: LoadLeevel, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6741652001622116868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062410763433909261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9840dfb35473a4e99f02a15d8dbc73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
+  LoadUI: {fileID: 0}
 --- !u!1 &5326948181976025165
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +552,7 @@ GameObject:
   - component: {fileID: 7048941389473872079}
   - component: {fileID: 340255080849528997}
   - component: {fileID: 891128897849592134}
+  - component: {fileID: 1628507483861966458}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -633,7 +661,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 340255080849528997}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1628507483861966458}
+        m_TargetAssemblyTypeName: RestartLevel, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1628507483861966458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326948181976025165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2695664f2950a6f47afd9edb599f911e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
+  LoadUI: {fileID: 0}
 --- !u!1 &5984949951858354024
 GameObject:
   m_ObjectHideFlags: 0

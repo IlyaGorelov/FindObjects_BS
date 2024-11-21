@@ -8,7 +8,7 @@ public class Hint : MonoBehaviour
     [SerializeField] GameObject focus;
     [SerializeField] TextMeshProUGUI countText;
     [SerializeField] GameObject Close;
-    private int useCount = 3;
+    public int useCount = 3;
     private bool canUseHint = true;
     [SerializeField] float speed = 1;
     private GameObject aim;
@@ -19,6 +19,11 @@ public class Hint : MonoBehaviour
         {
             Close.SetActive(true);
         }
+        else
+        {
+            Close.SetActive(false);
+        }
+
         countText.text = useCount.ToString();
 
         if (!canUseHint)

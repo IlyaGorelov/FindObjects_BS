@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using YG;
 
 public class IsCompleted : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class IsCompleted : MonoBehaviour
     private void Update()
     {
         if (allObjects.objects.Count==0) {
+            YandexGame.savesData.openedLevels[SceneManager.GetActiveScene().buildIndex + 1] = true;
+            YandexGame.SaveProgress();
             WinUI.SetActive(true);
         }
     }

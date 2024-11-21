@@ -17,8 +17,9 @@ namespace YG
         public bool[] openLevels = new bool[3];
 
         // Ваши сохранения
-
-        // ...
+        public float musicVolume;
+        public float soundVolume;
+        public bool[] openedLevels = new bool[50];
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
 
@@ -27,7 +28,7 @@ namespace YG
         public SavesYG()
         {
             // Допустим, задать значения по умолчанию для отдельных элементов массива
-
+            openedLevels[1] = true;
             openLevels[1] = true;
         }
     }
