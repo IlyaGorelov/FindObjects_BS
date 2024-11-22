@@ -29,6 +29,7 @@ namespace YG
         {
             // Допустим, задать значения по умолчанию для отдельных элементов массива
             openedLevels[1] = true;
+            openedLevels[9] = true;
             openLevels[1] = true;
         }
     }

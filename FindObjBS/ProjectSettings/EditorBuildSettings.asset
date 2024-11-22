@@ -17,6 +17,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3Leon.unity
     guid: 86414d3c398832a47ac2e5c666c0db84
+  - enabled: 1
+    path: Assets/Scenes/Level4Leon.unity
+    guid: 37b679016a3277d4386f9c4e653754f5
+  - enabled: 1
+    path: Assets/Scenes/Level5Leon.unity
+    guid: 47ef51577dfc26a4fbb83f6fe5a28802
+  - enabled: 1
+    path: Assets/Scenes/Level6Leon.unity
+    guid: f111afb320b456441a467e74c507a384
+  - enabled: 1
+    path: Assets/Scenes/Level7Leon.unity
+    guid: 7f9663f48318f4741912e4476f427820
+  - enabled: 1
+    path: Assets/Scenes/Level8Leon.unity
+    guid: eeef2ff58334c0b42af01046095defc1
+  - enabled: 1
+    path: Assets/Scenes/Level9Edgar.unity
+    guid: d6bd053bfd68eb74ca71d0a4edb7cf37
+  - enabled: 1
+    path: Assets/Scenes/Level10Edgar.unity
+    guid: 441f52c4bfe0e1b45a1bbb44393090b9
+  - enabled: 1
+    path: Assets/Scenes/Level11Edgar.unity
+    guid: ec6d9e7d6a607594d9879a6c4e900dd8
+  - enabled: 1
+    path: Assets/Scenes/Level12Edgar.unity
+    guid: fa1e85f86233b1e44848c33f0000294e
+  - enabled: 1
+    path: Assets/Scenes/Level13Edgar.unity
+    guid: c6ae3746d013d6c4e986413111793465
+  - enabled: 1
+    path: Assets/Scenes/Level14Edgar.unity
+    guid: 5846da9593482704781808edf46107d4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
