@@ -50,6 +50,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level14Edgar.unity
     guid: 5846da9593482704781808edf46107d4
+  - enabled: 1
+    path: Assets/Scenes/Level15Volt.unity
+    guid: 2069641edbcd53746bb409e8ab935198
+  - enabled: 1
+    path: Assets/Scenes/Level16Volt.unity
+    guid: 980372bda4b96d9469a60f0cd492207d
+  - enabled: 1
+    path: Assets/Scenes/Level17Volt.unity
+    guid: 395804711799c73449ce0ec8ce60d695
+  - enabled: 1
+    path: Assets/Scenes/Level18Bull.unity
+    guid: 5feb2cfc245a1eb4ea0d891079e46177
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
