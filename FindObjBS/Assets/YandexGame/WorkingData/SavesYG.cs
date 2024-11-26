@@ -32,6 +32,7 @@ namespace YG
             openedLevels[9] = true;
             openedLevels[15] = true;
             openedLevels[18] = true;
+            openedLevels[24] = true;
             openLevels[1] = true;
         }
     }

@@ -190,14 +190,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 12
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -723,7 +723,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      animals_0: -10524483601426386
+      animals_1: 5758861361426822821
+      animals_10: 6284572508141158567
+      animals_11: -3482606926889630891
+      animals_12: 110477935721402790
+      animals_13: 3117204224443578919
+      animals_14: -1601326401201788047
+      animals_15: -1108939863998677119
+      animals_16: -8111778111241485788
+      animals_17: 446962508067046564
+      animals_18: -2295827043839239567
+      animals_19: 5305343351223448175
+      animals_2: -1319315252296537693
+      animals_20: 1824422802616795261
+      animals_21: -5572966852987524704
+      animals_22: 1630076222422912583
+      animals_3: 8133266208652056809
+      animals_4: 8297040362687464060
+      animals_5: 3277387584969892780
+      animals_6: 6591381469864738340
+      animals_7: 7913660522167358954
+      animals_8: -953346549932427826
+      animals_9: 3691526897687444597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

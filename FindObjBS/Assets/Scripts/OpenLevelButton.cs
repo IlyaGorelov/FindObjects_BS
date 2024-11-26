@@ -6,6 +6,7 @@ public class OpenLevelButton : MonoBehaviour
 {
     [SerializeField] int levelId;
     [SerializeField] GameObject closeObject;
+    public bool i;
 
     private void OnEnable()
     {
@@ -21,6 +22,7 @@ public class OpenLevelButton : MonoBehaviour
 
     private void Load()
     {
+        i = YandexGame.savesData.openedLevels[levelId];
         if (YandexGame.savesData.openedLevels[levelId])
             closeObject.SetActive(false);
     }
