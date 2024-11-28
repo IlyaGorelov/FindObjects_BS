@@ -2852,8 +2852,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8428354303354350543, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
       propertyPath: 'replicas.Array.data[2]'
-      value: "\u041F\u044B\u044C\u043D\u044B\u0439 \u0437\u0430\u043B \u0441 \u043A\u0443\u0447\u0435\u0439
-        \u043C\u0443\u0441\u043E\u0440\u0430"
+      value: "\u041F\u044B\u043B\u044C\u043D\u044B\u0439 \u0437\u0430\u043B \u0441
+        \u043A\u0443\u0447\u0435\u0439 \u043C\u0443\u0441\u043E\u0440\u0430"
       objectReference: {fileID: 0}
     - target: {fileID: 8428354303354350543, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
       propertyPath: 'replicas.Array.data[3]'

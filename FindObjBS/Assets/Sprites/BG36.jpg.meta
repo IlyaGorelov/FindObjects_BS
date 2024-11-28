@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a99eaa18046a7014d99a55564415942a
+guid: d5ee53e0075457943b6cf15841a7a427
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4731285213811246800
-    second: BG16_0
+      213: 8294212920004677613
+    second: BG36_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,14 +124,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 10
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG16_0
+      name: BG36_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1436
-        height: 784
+        width: 1600
+        height: 883
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 039f8bb5a29175eb0800000000000000
-      internalID: -4731285213811246800
+      spriteID: def8554c4b6fa1370800000000000000
+      internalID: 8294212920004677613
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BG16_0: -4731285213811246800
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

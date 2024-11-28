@@ -1047,7 +1047,7 @@ PrefabInstance:
     - target: {fileID: 8715466408700674582, guid: 9c1ca8e04695a7342b68e7f91ce2852a, type: 3}
       propertyPath: goTo
       value: 
-      objectReference: {fileID: 1753663390}
+      objectReference: {fileID: 1749536082}
     - target: {fileID: 8715466408700674582, guid: 9c1ca8e04695a7342b68e7f91ce2852a, type: 3}
       propertyPath: allObjects
       value: 

@@ -1269,6 +1269,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4408892869394802697, guid: cac1d07a6e8fefc4faf784da9ad9f98e, type: 3}
+    - target: {fileID: 4305148771123991614, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4556930734675149395, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1300,6 +1304,10 @@ PrefabInstance:
     - target: {fileID: 5506376921269056149, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
       propertyPath: m_Color.r
       value: 0.41176474
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527686380986399220, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
+      propertyPath: go
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5777823243323577428, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
       propertyPath: allObjects
@@ -1544,12 +1552,14 @@ PrefabInstance:
     - {fileID: 6745557469208613861, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
     - {fileID: 7000838369082863718, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
     - {fileID: 6408554289454943795, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
+    - {fileID: 5340549276561625356, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
+    - {fileID: 61058018743468405, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1690946893724874903, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
-      insertIndex: 7
+      insertIndex: 6
       addedObject: {fileID: 571217934}
     - targetCorrespondingSourceObject: {fileID: 1690946893724874903, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
-      insertIndex: 8
+      insertIndex: 7
       addedObject: {fileID: 1560660643}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5203035737861344941, guid: 4c57f8bee2a78264ab0df5b0d80b8bd7, type: 3}
